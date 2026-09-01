@@ -1,0 +1,16 @@
+{
+  "id": "nda_mutual",
+  "title": "Mutual Non-Disclosure Agreement",
+  "description": "A bilateral NDA for two parties exploring a business relationship who need to protect confidential information exchanged in both directions.",
+  "category": "confidentiality",
+  "fields": [
+    { "name": "effective_date", "label": "Effective Date", "type": "date", "required": true },
+    { "name": "party_a_name", "label": "Party A Name", "type": "string", "required": true },
+    { "name": "party_a_address", "label": "Party A Address", "type": "string", "required": true },
+    { "name": "party_b_name", "label": "Party B Name", "type": "string", "required": true },
+    { "name": "party_b_address", "label": "Party B Address", "type": "string", "required": true },
+    { "name": "purpose", "label": "Purpose of Disclosure", "type": "text", "required": true },
+    { "name": "term_years", "label": "Term (Years)", "type": "number", "required": true },
+    { "name": "governing_state", "label": "Governing State", "type": "string", "required": true }
+  ]
+}

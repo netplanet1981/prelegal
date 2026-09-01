@@ -1,0 +1,19 @@
+{
+  "id": "services_agreement",
+  "title": "Services Agreement",
+  "description": "A consulting/services agreement between a client and a service provider, covering scope, fees, and term.",
+  "category": "commercial",
+  "fields": [
+    { "name": "effective_date", "label": "Effective Date", "type": "date", "required": true },
+    { "name": "client_name", "label": "Client Name", "type": "string", "required": true },
+    { "name": "client_address", "label": "Client Address", "type": "string", "required": true },
+    { "name": "provider_name", "label": "Provider Name", "type": "string", "required": true },
+    { "name": "provider_address", "label": "Provider Address", "type": "string", "required": true },
+    { "name": "services_description", "label": "Description of Services", "type": "text", "required": true },
+    { "name": "term_start_date", "label": "Term Start Date", "type": "date", "required": true },
+    { "name": "term_end_date", "label": "Term End Date", "type": "date", "required": true },
+    { "name": "fees", "label": "Fees", "type": "currency", "required": true },
+    { "name": "payment_schedule", "label": "Payment Schedule", "type": "text", "required": true },
+    { "name": "governing_state", "label": "Governing State", "type": "string", "required": true }
+  ]
+}

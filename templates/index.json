@@ -1,0 +1,27 @@
+[
+  {
+    "id": "nda_mutual",
+    "title": "Mutual Non-Disclosure Agreement",
+    "category": "confidentiality"
+  },
+  {
+    "id": "lease_agreement",
+    "title": "Residential Lease Agreement",
+    "category": "real_estate"
+  },
+  {
+    "id": "freelance_contractor_agreement",
+    "title": "Independent Contractor Agreement",
+    "category": "employment"
+  },
+  {
+    "id": "employment_offer_letter",
+    "title": "Employment Offer Letter",
+    "category": "employment"
+  },
+  {
+    "id": "services_agreement",
+    "title": "Services Agreement",
+    "category": "commercial"
+  }
+]
