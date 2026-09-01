@@ -1,0 +1,19 @@
+{
+  "id": "freelance_contractor_agreement",
+  "title": "Independent Contractor Agreement",
+  "description": "An agreement engaging a freelance or independent contractor for a defined scope of work, clarifying compensation and IP ownership.",
+  "category": "employment",
+  "fields": [
+    { "name": "effective_date", "label": "Effective Date", "type": "date", "required": true },
+    { "name": "client_name", "label": "Client Name", "type": "string", "required": true },
+    { "name": "client_address", "label": "Client Address", "type": "string", "required": true },
+    { "name": "contractor_name", "label": "Contractor Name", "type": "string", "required": true },
+    { "name": "contractor_address", "label": "Contractor Address", "type": "string", "required": true },
+    { "name": "scope_of_work", "label": "Scope of Work", "type": "text", "required": true },
+    { "name": "start_date", "label": "Start Date", "type": "date", "required": true },
+    { "name": "end_date", "label": "End Date", "type": "date", "required": true },
+    { "name": "payment_amount", "label": "Payment Amount", "type": "currency", "required": true },
+    { "name": "payment_terms", "label": "Payment Terms", "type": "text", "required": true },
+    { "name": "governing_state", "label": "Governing State", "type": "string", "required": true }
+  ]
+}

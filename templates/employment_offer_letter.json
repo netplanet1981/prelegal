@@ -1,0 +1,18 @@
+{
+  "id": "employment_offer_letter",
+  "title": "Employment Offer Letter",
+  "description": "A formal offer letter extending an at-will employment offer to a candidate, covering role, compensation, and acceptance.",
+  "category": "employment",
+  "fields": [
+    { "name": "offer_date", "label": "Offer Date", "type": "date", "required": true },
+    { "name": "company_name", "label": "Company Name", "type": "string", "required": true },
+    { "name": "company_address", "label": "Company Address", "type": "string", "required": true },
+    { "name": "candidate_name", "label": "Candidate Name", "type": "string", "required": true },
+    { "name": "job_title", "label": "Job Title", "type": "string", "required": true },
+    { "name": "start_date", "label": "Start Date", "type": "date", "required": true },
+    { "name": "annual_salary", "label": "Annual Salary", "type": "currency", "required": true },
+    { "name": "employment_type", "label": "Employment Type", "type": "string", "required": true },
+    { "name": "reporting_manager", "label": "Reporting Manager", "type": "string", "required": true },
+    { "name": "acceptance_deadline", "label": "Acceptance Deadline", "type": "date", "required": true }
+  ]
+}

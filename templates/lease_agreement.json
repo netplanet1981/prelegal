@@ -1,0 +1,18 @@
+{
+  "id": "lease_agreement",
+  "title": "Residential Lease Agreement",
+  "description": "A standard fixed-term residential lease between a landlord and a single tenant, covering rent, deposit, and term.",
+  "category": "real_estate",
+  "fields": [
+    { "name": "effective_date", "label": "Effective Date", "type": "date", "required": true },
+    { "name": "landlord_name", "label": "Landlord Name", "type": "string", "required": true },
+    { "name": "landlord_address", "label": "Landlord Address", "type": "string", "required": true },
+    { "name": "tenant_name", "label": "Tenant Name", "type": "string", "required": true },
+    { "name": "property_address", "label": "Property Address", "type": "string", "required": true },
+    { "name": "lease_start_date", "label": "Lease Start Date", "type": "date", "required": true },
+    { "name": "lease_end_date", "label": "Lease End Date", "type": "date", "required": true },
+    { "name": "monthly_rent", "label": "Monthly Rent", "type": "currency", "required": true },
+    { "name": "security_deposit", "label": "Security Deposit", "type": "currency", "required": true },
+    { "name": "governing_state", "label": "Governing State", "type": "string", "required": true }
+  ]
+}
